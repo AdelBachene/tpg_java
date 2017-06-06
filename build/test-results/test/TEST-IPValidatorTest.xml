@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IPValidatorTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2017-06-06T17:28:44" hostname="Adels-MacBook-Air.local" time="0.242">
+  <properties/>
+  <testcase name="InValidIPAddressTest[0: 10.10.10]" classname="IPValidatorTest" time="0.068"/>
+  <testcase name="InValidIPAddressTest[1: 10.10]" classname="IPValidatorTest" time="0.021"/>
+  <testcase name="InValidIPAddressTest[2: 10]" classname="IPValidatorTest" time="0.054"/>
+  <testcase name="InValidIPAddressTest[3: a.a.a.a]" classname="IPValidatorTest" time="0.004"/>
+  <testcase name="InValidIPAddressTest[4: 10.0.0.a]" classname="IPValidatorTest" time="0.002"/>
+  <testcase name="InValidIPAddressTest[5: 10.10.10.256]" classname="IPValidatorTest" time="0.002"/>
+  <testcase name="InValidIPAddressTest[6: 222.222.2.999]" classname="IPValidatorTest" time="0.0"/>
+  <testcase name="InValidIPAddressTest[7: 999.10.10.20]" classname="IPValidatorTest" time="0.002"/>
+  <testcase name="InValidIPAddressTest[8: 2222.22.22.22]" classname="IPValidatorTest" time="0.004"/>
+  <testcase name="InValidIPAddressTest[9: 22.2222.22.2]" classname="IPValidatorTest" time="0.0"/>
+  <testcase name="InValidIPAddressTest[10: 10.10.10]" classname="IPValidatorTest" time="0.0"/>
+  <testcase name="InValidIPAddressTest[11: 10.10.10]" classname="IPValidatorTest" time="0.001"/>
+  <testcase name="ValidIPAddressTest[0: 1.1.1.1]" classname="IPValidatorTest" time="0.002"/>
+  <testcase name="ValidIPAddressTest[1: 255.255.255.255]" classname="IPValidatorTest" time="0.001"/>
+  <testcase name="ValidIPAddressTest[2: 192.168.1.1]" classname="IPValidatorTest" time="0.001"/>
+  <testcase name="ValidIPAddressTest[3: 10.10.1.1]" classname="IPValidatorTest" time="0.002"/>
+  <testcase name="ValidIPAddressTest[4: 132.254.111.10]" classname="IPValidatorTest" time="0.011"/>
+  <testcase name="ValidIPAddressTest[5: 26.10.2.10]" classname="IPValidatorTest" time="0.001"/>
+  <testcase name="ValidIPAddressTest[6: 127.0.0.1]" classname="IPValidatorTest" time="0.004"/>
+  <system-out><![CDATA[IP Validation : 10.10.10 , false
+IP Validation : 10.10 , false
+IP Validation : 10 , false
+IP Validation : a.a.a.a , false
+IP Validation : 10.0.0.a , false
+IP Validation : 10.10.10.256 , false
+IP Validation : 222.222.2.999 , false
+IP Validation : 999.10.10.20 , false
+IP Validation : 2222.22.22.22 , false
+IP Validation : 22.2222.22.2 , false
+IP Validation : 10.10.10 , false
+IP Validation : 10.10.10 , false
+IP validation : 1.1.1.1 , true
+IP validation : 255.255.255.255 , true
+IP validation : 192.168.1.1 , true
+IP validation : 10.10.1.1 , true
+IP validation : 132.254.111.10 , true
+IP validation : 26.10.2.10 , true
+IP validation : 127.0.0.1 , true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

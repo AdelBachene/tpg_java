@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="question1.IPValidatorTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2017-06-06T18:11:57" hostname="Adels-MacBook-Air.local" time="0.311">
+  <properties/>
+  <testcase name="inValidIPAddressTest[0: 10.10.10]" classname="question1.IPValidatorTest" time="0.003"/>
+  <testcase name="inValidIPAddressTest[1: 10.10]" classname="question1.IPValidatorTest" time="0.008"/>
+  <testcase name="inValidIPAddressTest[2: 10]" classname="question1.IPValidatorTest" time="0.001"/>
+  <testcase name="inValidIPAddressTest[3: a.a.a.a]" classname="question1.IPValidatorTest" time="0.015"/>
+  <testcase name="inValidIPAddressTest[4: 10.0.0.a]" classname="question1.IPValidatorTest" time="0.005"/>
+  <testcase name="inValidIPAddressTest[5: 10.10.10.256]" classname="question1.IPValidatorTest" time="0.002"/>
+  <testcase name="inValidIPAddressTest[6: 222.222.2.999]" classname="question1.IPValidatorTest" time="0.081"/>
+  <testcase name="inValidIPAddressTest[7: 999.10.10.20]" classname="question1.IPValidatorTest" time="0.002"/>
+  <testcase name="inValidIPAddressTest[8: 2222.22.22.22]" classname="question1.IPValidatorTest" time="0.001"/>
+  <testcase name="inValidIPAddressTest[9: 22.2222.22.2]" classname="question1.IPValidatorTest" time="0.002"/>
+  <testcase name="inValidIPAddressTest[10: 10.10.10]" classname="question1.IPValidatorTest" time="0.014"/>
+  <testcase name="inValidIPAddressTest[11: 10.10.10]" classname="question1.IPValidatorTest" time="0.018"/>
+  <testcase name="validIPAddressTest[0: 1.1.1.1]" classname="question1.IPValidatorTest" time="0.003"/>
+  <testcase name="validIPAddressTest[1: 255.255.255.255]" classname="question1.IPValidatorTest" time="0.006"/>
+  <testcase name="validIPAddressTest[2: 192.168.1.1]" classname="question1.IPValidatorTest" time="0.005"/>
+  <testcase name="validIPAddressTest[3: 10.10.1.1]" classname="question1.IPValidatorTest" time="0.007"/>
+  <testcase name="validIPAddressTest[4: 132.254.111.10]" classname="question1.IPValidatorTest" time="0.0"/>
+  <testcase name="validIPAddressTest[5: 26.10.2.10]" classname="question1.IPValidatorTest" time="0.001"/>
+  <testcase name="validIPAddressTest[6: 127.0.0.1]" classname="question1.IPValidatorTest" time="0.0"/>
+  <system-out><![CDATA[IP Validation : 10.10.10 , false
+IP Validation : 10.10 , false
+IP Validation : 10 , false
+IP Validation : a.a.a.a , false
+IP Validation : 10.0.0.a , false
+IP Validation : 10.10.10.256 , false
+IP Validation : 222.222.2.999 , false
+IP Validation : 999.10.10.20 , false
+IP Validation : 2222.22.22.22 , false
+IP Validation : 22.2222.22.2 , false
+IP Validation : 10.10.10 , false
+IP Validation : 10.10.10 , false
+IP validation : 1.1.1.1 , true
+IP validation : 255.255.255.255 , true
+IP validation : 192.168.1.1 , true
+IP validation : 10.10.1.1 , true
+IP validation : 132.254.111.10 , true
+IP validation : 26.10.2.10 , true
+IP validation : 127.0.0.1 , true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
